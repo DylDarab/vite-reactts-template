@@ -4,7 +4,7 @@ type PropsType = {
   children: React.ReactNode
   onClick: () => void
 }
-const Button = ({ children, onClick }: PropsType) => {
+const Button:React.FC<PropsType> = ({ children, onClick }) => {
   return <button onClick={onClick}>{children}</button>
 }
 

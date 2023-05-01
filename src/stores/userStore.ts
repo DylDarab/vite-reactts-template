@@ -1,5 +1,5 @@
-import Person from '@models/Person'
-import create from 'zustand'
+import Person from '@/models/Person'
+import { create } from 'zustand'
 
 type UserStore = {
   user: Person

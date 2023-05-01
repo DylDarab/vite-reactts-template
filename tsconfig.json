@@ -21,29 +21,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@pages/*": [
-        "src/pages/*"
-      ],
-      "@type/*": [
-        "src/type/*"
-      ],
-      "@hooks/*": [
-        "src/hooks/*"
-      ],
-      "@stores/*": [
-        "src/stores/*"
-      ],
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@utils/*": [
-        "src/utils/*"
-      ],
-      "@models/*": [
-        "src/models/*"
+      "@/*": [
+        "src/*"
       ]
     }
   },
