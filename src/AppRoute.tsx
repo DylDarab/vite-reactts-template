@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Home from '@/pages/home'
-import { useState } from 'react'
+import Home from '@/modules/Home/pages'
 
 function App() {
   return (

@@ -7,5 +7,5 @@ module.exports = {
   bracketSpacing: true,
   bracketLine: false,
   arrowParens: 'always',
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: ['prettier-plugin-tailwindcss', 'prettier-plugin-twin.macro'],
 }
